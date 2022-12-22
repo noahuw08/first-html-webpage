@@ -1,1 +1,2 @@
 # first-html-webpage
+Hi! My name is Noah Nguyen. This is the first HTML webpage that I made. I used Terminal on macOS to git clone the repo to my machine to do stage fixes, commit, then push it to GitHub.
