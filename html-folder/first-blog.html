@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>ChatGPT Blog - created by Noah</title>
+    </head>
+
+    <body>
+        <h1>
+            How ChatGPT solved my Waterloo CS coding problem
+        </h1>
+        <h2>
+            The problem goes like this:
+        </h2>
+        <h3> 
+            Write a function <em>double-countdown</em> that consumes four natural numbers a, ai, b, and bi. 
+            The function produces a list of natural numbers by counting down from a by multiples of ai and counting down from b by multiples of bi, 
+            stopping at zero in both cases. The two countdowns are collected into a single list in descending order with no duplicates.
+        </h3>
+
+        <p>
+            The function is written in Racket, with <em>Intermediate Student</em> language with <em>lambda</em>.
+        </p>
+        <p>
+            ChatGPT does exactly what I told it, and it even carefully explains the process of solving the program.
+        </p>
+        <p>
+            <strong>ChatGPT's brief explanation</strong>:
+        </p>
+        <p>
+            Both versions of the function work by first defining a helper function countdown that counts down from a given number n 
+            by a given amount m until it reaches zero.
+        </p> 
+        <p>
+            The <em>double-countdown</em> function then calls countdown twice, 
+            once for each of the input numbers a and b, and appends the resulting lists together.
+        </p>
+        <p> 
+            Finally, the function sorts the combined list in descending order and removes any duplicates using the <em>remove-duplicates</em> function.
+        </p>
+    </body>
+</html>
